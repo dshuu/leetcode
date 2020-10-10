@@ -1,0 +1,29 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha src/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dshuu/leetcode.git"
+  },
+  "keywords": [
+    "leetcode"
+  ],
+  "author": "dshu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dshuu/leetcode/issues"
+  },
+  "homepage": "https://github.com/dshuu/leetcode#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "mocha": "^8.1.3"
+  }
+}
